@@ -14,10 +14,13 @@ public class RecursionHomeAssignment {
     }
 
 //    public static int upToNumber(int n) {
-//        if (n == 0 || n == 1) { //
+//        if (n == 0) {
 //            return n;
 //        }
 //        return n + upToNumber(n - 1);
+
+// Shorter option:
+// return n == 0 ? n : n + upToNumber(n - 1);
 //    }
 
 
