@@ -23,10 +23,9 @@ public class SortingAlgos {
         // linear search (sequentially checks each element of the list until
         // a match is found or the whole list has been searched);
 
-        // O(n log n) - fastest possible comparison sort (a type of sorting algorithm that only reads the list elements
-        // through a single abstract comparison operation, for example if a ≤ b and b ≤ c then a ≤ c);
+        // O(n log n) - merge search;
 
-        // O(n2) - bubble sort, insertion sort;
+        // O(n^2) - bubble sort, insertion sort;
 
         // O(n!) - solving the traveling salesman problem (asks the following question:
         // "Given a list of cities and the distances between each pair of cities,
@@ -42,7 +41,7 @@ public class SortingAlgos {
 
 //        for (int i = 0; i < numbers.length; i++) {
 //            for (int j = 0; j < numbers.length - 1 - i; j++) {
-//                if (numbers[j] > numbers[j + 1]) { // compares number next to it
+//                if (numbers[j] > numbers[j + 1]) { // compares to the next number
 //                    // Create a temporary variable to hold the current value
 //                    // at index j
 //                    int temp = numbers[j];
@@ -67,7 +66,7 @@ public class SortingAlgos {
 //            int valueToSort = numbers[i];
 //            int j;
 //            // The loop below is to store the numbers at the point
-//            // where there are no less numbers than that value.
+//            // where there are no longer less numbers than a specific value (j > 0 && numbers[j - 1] > valueToSort)
 //            for(j = i; j > 0 && numbers[j - 1] > valueToSort; j--) {
 //                numbers[j] = numbers[j - 1];
 //            }
@@ -167,5 +166,5 @@ public class SortingAlgos {
         }
     }
 
-    // Time complexity for this is: O(nlogn)
+    // Time complexity for this is: O(n log n)
 }
