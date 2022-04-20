@@ -1,4 +1,4 @@
-package com.company.person;
+package com.company.oop.person;
 
 public class Person {
 

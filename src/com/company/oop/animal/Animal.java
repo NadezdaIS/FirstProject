@@ -1,4 +1,4 @@
-package com.company.OOP.animal;
+package com.company.oop.animal;
 
 public class Animal {
 

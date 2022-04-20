@@ -1,13 +1,11 @@
-package com.company.OOP;
+package com.company.oop;
 
-import com.company.OOP.animal.Bird;
-import com.company.OOP.car.Bugatti;
-import com.company.OOP.car.Ferrari;
-import com.company.OOP.company.Company;
-import com.company.OOP.company.Employee;
-import com.company.person.Person;
+import com.company.oop.car.Bugatti;
+import com.company.oop.car.Ferrari;
+import com.company.oop.company.Company;
+import com.company.oop.company.Employee;
 // should be imported as it is class from a different package
-import com.company.person.Persons;
+
 public class OOPIntro {
 
     // OOP -> programming paradigm

@@ -1,4 +1,4 @@
-package com.company.OOP;
+package com.company.oop;
 
 public class Rectangle {
 

@@ -1,4 +1,4 @@
-package com.company.OOP.car;
+package com.company.oop.car;
 // public class will be available outside the package, class cannot be private
 // if class written without stating it is public, it will only be available inside the package,
 // package-protected class would only be available in OOP package in this case

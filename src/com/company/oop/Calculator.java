@@ -1,4 +1,4 @@
-package com.company.OOP;
+package com.company.oop;
 
 public class Calculator {
     // static is the opposite of instance, means that the particular member belongs to a type itself,

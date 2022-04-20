@@ -1,4 +1,4 @@
-package com.company.OOP.car;
+package com.company.oop.car;
 
 public class Ferrari extends Car {
     private boolean engineOn = false; // imported from Car class for overriding method startEngine

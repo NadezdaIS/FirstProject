@@ -1,4 +1,4 @@
-package com.company.OOP.car;
+package com.company.oop.car;
 
 public class Bugatti extends Car {
 

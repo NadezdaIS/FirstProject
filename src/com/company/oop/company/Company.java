@@ -1,6 +1,6 @@
-package com.company.OOP.company;
+package com.company.oop.company;
 
-import com.company.person.Person;
+import com.company.oop.person.Person;
 
 public class Company {
 

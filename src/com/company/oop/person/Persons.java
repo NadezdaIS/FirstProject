@@ -1,6 +1,4 @@
-package com.company.person;
-
-import com.company.person.Person;
+package com.company.oop.person;
 
 public class Persons {
 
