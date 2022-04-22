@@ -159,8 +159,7 @@ public class StringExtended {
 
 //Task
         // Simple calculator, but interactive and using switch
-
-        /*Scanner scanner = new Scanner (System.in);
+/*Scanner scanner = new Scanner (System.in);
         System.out.println ("Please enter first number: ");
         String First = scanner.next();
         System.out.println ("Please enter second number: ");
@@ -185,6 +184,7 @@ public class StringExtended {
             default:
                 System.out.println("Not a valid operator");
                 break;
+
         }*/
 
     }
