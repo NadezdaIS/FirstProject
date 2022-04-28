@@ -1,11 +1,8 @@
 package com.company.newproject.collections;
 
-
-
 import java.util.List;
 
 public class Student {
-
 
     private String name;
     private int age;
@@ -17,7 +14,7 @@ public class Student {
         this.scores = scores;
     }
 
-        public int getAverageScore() {
+    public int getAverageScore() {
         int sum = 0;
         for(Score score : scores) {
             sum += score.getScoreValue();
